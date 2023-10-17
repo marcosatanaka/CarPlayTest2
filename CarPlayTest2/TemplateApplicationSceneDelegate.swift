@@ -1,12 +1,17 @@
-import Foundation
+import UIKit
 import CarPlay
 
-class CarPlaySceneDelegate: UIResponder, CPTemplateApplicationSceneDelegate {
+class TemplateApplicationSceneDelegate: NSObject {
 
     var interfaceController: CPInterfaceController?
 
-    func templateApplicationScene(_ templateApplicationScene: CPTemplateApplicationScene,
-                                  didConnect interfaceController: CPInterfaceController) {
+}
+
+// MARK: CPTemplateApplicationSceneDelegate
+
+extension TemplateApplicationSceneDelegate: CPTemplateApplicationSceneDelegate {
+
+    func templateApplicationScene(_ templateApplicationScene: CPTemplateApplicationScene, didConnect interfaceController: CPInterfaceController) {
         self.interfaceController = interfaceController
 
         let carPlayUI = CPListTemplate(title: "TEST", sections: [])
@@ -17,8 +22,7 @@ class CarPlaySceneDelegate: UIResponder, CPTemplateApplicationSceneDelegate {
     }
 
     func templateApplicationScene(_ templateApplicationScene: CPTemplateApplicationScene,
-                                  didDisconnect interfaceController: CPInterfaceController,
-                                  from window: CPWindow) {
+                                  didDisconnectInterfaceController interfaceController: CPInterfaceController) {
         self.interfaceController = nil
     }
 }

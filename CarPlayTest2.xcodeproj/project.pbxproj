@@ -11,7 +11,9 @@
 		B1607D132ADCA23600A77C99 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1607D122ADCA23600A77C99 /* ContentView.swift */; };
 		B1607D152ADCA23800A77C99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1607D142ADCA23800A77C99 /* Assets.xcassets */; };
 		B1607D182ADCA23800A77C99 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1607D172ADCA23800A77C99 /* Preview Assets.xcassets */; };
-		B1607D1F2ADCA29F00A77C99 /* CarPlaySceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1607D1E2ADCA29F00A77C99 /* CarPlaySceneDelegate.swift */; };
+		B1607D1F2ADCA29F00A77C99 /* TemplateApplicationSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1607D1E2ADCA29F00A77C99 /* TemplateApplicationSceneDelegate.swift */; };
+		B173925A2ADEB1F000C11673 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17392592ADEB1F000C11673 /* AppDelegate.swift */; };
+		B173925C2ADEB1F600C11673 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B173925B2ADEB1F600C11673 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,9 +22,11 @@
 		B1607D122ADCA23600A77C99 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B1607D142ADCA23800A77C99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1607D172ADCA23800A77C99 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B1607D1E2ADCA29F00A77C99 /* CarPlaySceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlaySceneDelegate.swift; sourceTree = "<group>"; };
+		B1607D1E2ADCA29F00A77C99 /* TemplateApplicationSceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateApplicationSceneDelegate.swift; sourceTree = "<group>"; };
 		B1607D202ADCA2C600A77C99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B1607D212ADCA34200A77C99 /* CarPlayTest2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CarPlayTest2.entitlements; sourceTree = "<group>"; };
+		B17392592ADEB1F000C11673 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B173925B2ADEB1F600C11673 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 				B1607D212ADCA34200A77C99 /* CarPlayTest2.entitlements */,
 				B1607D202ADCA2C600A77C99 /* Info.plist */,
 				B1607D102ADCA23600A77C99 /* CarPlayTest2App.swift */,
-				B1607D1E2ADCA29F00A77C99 /* CarPlaySceneDelegate.swift */,
+				B17392592ADEB1F000C11673 /* AppDelegate.swift */,
+				B173925B2ADEB1F600C11673 /* SceneDelegate.swift */,
+				B1607D1E2ADCA29F00A77C99 /* TemplateApplicationSceneDelegate.swift */,
 				B1607D122ADCA23600A77C99 /* ContentView.swift */,
 				B1607D142ADCA23800A77C99 /* Assets.xcassets */,
 				B1607D162ADCA23800A77C99 /* Preview Content */,
@@ -144,8 +150,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B173925C2ADEB1F600C11673 /* SceneDelegate.swift in Sources */,
+				B173925A2ADEB1F000C11673 /* AppDelegate.swift in Sources */,
 				B1607D132ADCA23600A77C99 /* ContentView.swift in Sources */,
-				B1607D1F2ADCA29F00A77C99 /* CarPlaySceneDelegate.swift in Sources */,
+				B1607D1F2ADCA29F00A77C99 /* TemplateApplicationSceneDelegate.swift in Sources */,
 				B1607D112ADCA23600A77C99 /* CarPlayTest2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

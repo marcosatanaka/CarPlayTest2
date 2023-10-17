@@ -4,7 +4,7 @@
 <dict>
     <key>UIApplicationSceneManifest</key>
     <dict>
-        <key>UIApplicaationSupportsMultipleScenes</key>
+        <key>UIApplicationSupportsMultipleScenes</key>
         <true/>
         <key>UISceneConfigurations</key>
         <dict>
@@ -13,12 +13,21 @@
                 <dict>
                     <key>UISceneClassName</key>
                     <string>CPTemplateApplicationScene</string>
-                    <key>UISceneDelegateClassName</key>
-                    <string>$(PRODUCT_MODULE_NAME).CarPlaySceneDelegate</string>
                     <key>UISceneConfigurationName</key>
-                    <string>CarPlay Configuration</string>
-                    <key>UISceneStoryboardFile</key>
-                    <string></string>
+                    <string>TemplateSceneConfiguration</string>
+                    <key>UISceneDelegateClassName</key>
+                    <string>CarPlayTest2.TemplateApplicationSceneDelegate</string>
+                </dict>
+            </array>
+            <key>UIWindowSceneSessionRoleApplication</key>
+            <array>
+                <dict>
+                    <key>UISceneClassName</key>
+                    <string>UIWindowScene</string>
+                    <key>UISceneConfigurationName</key>
+                    <string>SceneConfiguration</string>
+                    <key>UISceneDelegateClassName</key>
+                    <string>CarPlayTest2.SceneDelegate</string>
                 </dict>
             </array>
         </dict>
